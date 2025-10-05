@@ -1,0 +1,353 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #8a2be2, #4b0082);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+input[type="text"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9em;
+  opacity: 0.6;
+}
+
+.download-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+#openSelfBtn {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#openSelfBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.settings-btn {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.settings-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.github-btn {
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.github-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+#musicBtn {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#musicBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.duckmath-btn {
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00ff9d, #00cc7a);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 255, 157, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.duckmath-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 255, 157, 0.5);
+}
+.discord-btn {
+  position: absolute;
+  top: 320px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082); /* same gradient as others */
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* same shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1000;
+}
+
+.discord-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.home-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 8px 16px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #4b0082);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1001;
+}
+
+.home-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.discord-toggle-btn {
+  position: absolute;
+  top: 370px; /* adjust as needed */
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #5865F2, #404EED);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 1000;
+}
+
+.discord-toggle-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+#discord-container {
+  width: 80%;
+  height: 600px;
+  margin: 40px auto 0;
+  display: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #8a2be2, #4b0082);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.discord-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #5865F2, #404EED);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.discord-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.test-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #8a2be2, #404EED);
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.test-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #0d0d2b, #1a1a40); /* Deep space tones */
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+#loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, #000 60%, #111);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  flex-direction: column;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.spaceship {
+  animation: float 2s ease-in-out infinite;
+}
+
+.spaceship .body {
+  width: 60px;
+  height: 100px;
+  background: linear-gradient(to bottom, #ccc, #999);
+  border-radius: 30px 30px 10px 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.spaceship .flame {
+  width: 20px;
+  height: 40px;
+  background: radial-gradient(circle, orange, red);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  animation: flicker 0.3s infinite;
+}
+
+.spaceship .trail {
+  width: 4px;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.2), transparent);
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
